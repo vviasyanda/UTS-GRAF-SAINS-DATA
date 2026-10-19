@@ -38,7 +38,7 @@ Visualisasi graf dilakukan menggunakan NetworkX untuk melihat hubungan antar-nod
 
 Perhitungan similarity dilakukan menggunakan Python, kemudian lima nilai similarity tertinggi dari item acuan 5411 disimpan kembali ke Neo4j melalui relasi SIMILAR_TO. Graf sebelum dan sesudah penambahan similarity juga ditampilkan untuk melihat perbedaannya.
 
-Pada tahap analytics, digunakan metode Item-Based KNN dengan `k = 5` untuk membuat rekomendasi produk. Tiga item teratas dipilih sebagai hasil rekomendasi, sedangkan lima rekomendasi teratas digunakan untuk evaluasi dengan metrik Hit@5 dan NDCG@5.
+Pada tahap analytics, digunakan metode Item-Based KNN dengan k = 5 untuk membuat rekomendasi produk. Tiga item teratas dipilih sebagai hasil rekomendasi, sedangkan lima rekomendasi teratas digunakan untuk evaluasi dengan metrik Hit@5 dan NDCG@5.
 
 
 ## Hasil Perhitungan Similarity
